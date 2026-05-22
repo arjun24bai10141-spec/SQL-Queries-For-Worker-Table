@@ -1,0 +1,5 @@
+7. Write an SQL query to fetch the count of employees working in the department ‘Admin’.
+
+SELECT COUNT(*) AS TOTAL_EMPLOYEES
+FROM Worker
+WHERE DEPARTMENT = 'Admin';
