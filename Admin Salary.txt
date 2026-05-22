@@ -1,6 +1,0 @@
-6. Write an SQL query to print details of the admin whose SALARY lies between 100000 and 500000.
-
-SELECT *
-FROM Worker
-WHERE DEPARTMENT = 'Admin'
-AND SALARY BETWEEN 100000 AND 500000;
